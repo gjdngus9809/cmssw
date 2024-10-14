@@ -34,7 +34,7 @@ void ME0Stub::update_quality() {
     } else {quality = 0;}
 }
 void ME0Stub::fit(int max_span) {
-    if (id) {
+    if (id!=0) {
         std::vector<float> tmp;
         for (float cent : centroid) {
             tmp.push_back(cent-(max_span/2+1));

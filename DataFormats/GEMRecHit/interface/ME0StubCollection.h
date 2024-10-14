@@ -5,7 +5,7 @@
  *
  * The collection of ME0Stub's. See \ref CSCSegmentCollection.h for details from which is derived.
  *
- *  \author Piet Verwilligen
+ *  \author Woohyeon Heo
  */
 
 #include "DataFormats/MuonDetId/interface/GEMDetId.h"
